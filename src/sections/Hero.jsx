@@ -15,7 +15,7 @@ const Hero = () => {
     >
       <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
         <p className='text-xl font-montserrat text-montagne-light'>
-          Our Summer collections
+          Our Winter collections
         </p>
 
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
@@ -31,7 +31,7 @@ const Hero = () => {
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
           Discover stylish Montagne arrivals, quality comfort, and innovation for
-          your active life.
+          your outdoor active life.
         </p>
 
         <Button label='Shop now' iconURL={arrowRight} />
