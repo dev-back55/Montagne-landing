@@ -54,6 +54,7 @@ const Hero = () => {
           alt='shoe colletion'
           width={610}
           height={502}
+          rel="preload"
           fetchpriority="high"
           className='object-contain relative z-10'
         />
