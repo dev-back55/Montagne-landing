@@ -6,6 +6,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
       <img
         src={imgURL}
         alt='customer'
+        rel="preload"
         fetchpriority="high"
         className='rounded-full object-cover w-[120px] h-[120px]'
       />
@@ -16,6 +17,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
           width={24}
           height={24}
           alt='rating star'
+          rel="preload"
           fetchpriority="high"
           className='object-contain m-0'
         />

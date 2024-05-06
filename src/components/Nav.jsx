@@ -12,6 +12,7 @@ const Nav = () => {
             alt='logo'
             width={135}
             height={58}
+            rel="preload"
             fetchpriority="high"
             className='m-0 w-[135px] h-[58px]'
           />
