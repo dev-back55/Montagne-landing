@@ -13,6 +13,8 @@ const Footer = () => {
               alt='logo'
               width={150}
               height={46}
+              rel="preload"
+              fetchpriority="high"
               className='m-0'
             />
           </a>
@@ -27,7 +29,7 @@ const Footer = () => {
                 key={icon.alt}
               >
                 <a href={icon.link} target="_blank">
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                <img src={icon.src} rel="preload" fetchpriority="high" alt={icon.alt} width={24} height={24} />
                 </a>
               </div>
             ))}
@@ -62,6 +64,8 @@ const Footer = () => {
             alt='copyright sign'
             width={20}
             height={20}
+            rel="preload"
+            fetchpriority="high"
             className='rounded-full m-0'
           />
           <p>Copyright. All rights reserved.</p>

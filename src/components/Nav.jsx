@@ -35,7 +35,7 @@ const Nav = () => {
           <a href='/'>Explore now</a>
         </div>
         <div className='hidden max-lg:block'>
-          <img src={hamburger} alt='hamburger icon' width={25} height={25} />
+          <img src={hamburger} rel="preload" fetchpriority="high" alt='hamburger icon' width={25} height={25} />
         </div>
       </nav>
     </header>
