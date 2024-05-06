@@ -16,7 +16,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
           width={24}
           height={24}
           alt='rating star'
-          loading="lazy"
+          
           className='object-contain m-0'
         />
         <p className='text-xl font-montserrat text-qualify-text'>({rating})</p>
