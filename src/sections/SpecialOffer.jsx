@@ -11,7 +11,8 @@ const SpecialOffer = () => {
           alt='Shoe Promotion'
           width={773}
           height={687}
-          
+          rel="preload"
+          fetchpriority="high"
           className='object-contain w-full rounded-xl'
         />
       </div>

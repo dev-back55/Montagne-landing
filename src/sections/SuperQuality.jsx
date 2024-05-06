@@ -32,7 +32,8 @@ const SuperQuality = () => {
           alt='product detail'
           width={570}
           height={522}
-          
+          rel="preload"
+          fetchpriority="high"
           className='object-contain'
         />
       </div>
