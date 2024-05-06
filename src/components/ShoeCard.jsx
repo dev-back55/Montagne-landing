@@ -20,6 +20,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
           alt='shoe colletion'
           width={127}
           height={103.34}
+          fetchpriority="high"
           className='object-contain'
         />
       </div>
