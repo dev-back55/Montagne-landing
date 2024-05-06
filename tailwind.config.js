@@ -29,7 +29,9 @@ export default {
         "white-400": "rgba(255, 255, 255, 0.80)",
         "montagne": "rgb(251, 4, 17)",
         "montagne-light": "rgb(237, 106, 90)",
-        "nav-link": "rgb(17, 17, 17)"
+        "nav-link": "rgb(17, 17, 17)",
+        "qualify": "rgb(239, 204, 32)",
+        "qualify-text": "rgb(236, 133, 31)"
 
       },
       boxShadow: {

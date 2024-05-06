@@ -2,13 +2,13 @@ import bigShoe1 from './big-shoe1.png'
 import bigShoe2 from './big-shoe2.png'
 import bigShoe3 from './big-shoe3.png'
 
-import customer3 from './customer3.png'
-import customer4 from './customer4.png'
+import customer3 from './customer3.webp'
+import customer4 from './customer4.webp'
 
 import footerLogo from './footer-logo.svg'
 import montagneLogo from './montagne-logo.svg'
 
-import offer from './offer.png'
+import offer from './offer.webp'
 
 import shoe4 from './shoe4.png'
 import shoe5 from './shoe5.png'
