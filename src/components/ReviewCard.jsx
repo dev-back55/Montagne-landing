@@ -6,8 +6,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
       <img
         src={imgURL}
         alt='customer'
-        rel="preload"
-        fetchpriority="high"
+        loading="lazy"
         className='rounded-full object-cover w-[120px] h-[120px]'
       />
       <p className='mt-6 max-w-sm text-center info-text'>{feedback}</p>
@@ -17,8 +16,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
           width={24}
           height={24}
           alt='rating star'
-          rel="preload"
-          fetchpriority="high"
+          loading="lazy"
           className='object-contain m-0'
         />
         <p className='text-xl font-montserrat text-qualify-text'>({rating})</p>

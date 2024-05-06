@@ -21,8 +21,7 @@ const Button = ({
         <img
           src={iconURL}
           alt='arrow right icon'
-          rel="preload"
-          fetchpriority="high"
+          loading="lazy"
           className='ml-2 rounded-full bg-white w-5 h-5'
         />
       )}
