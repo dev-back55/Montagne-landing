@@ -38,5 +38,4 @@ export {
     shoe8,
 
     thumbnailBackground
-    
 }

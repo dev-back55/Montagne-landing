@@ -22,7 +22,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
           height={103.34}
           rel="preload"
           fetchpriority="high"
-          className='object-contain'
+          className='object-contain transition-transform duration-300 ease-in-out transform hover:scale-110'
         />
       </div>
     </div>
